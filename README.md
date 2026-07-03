@@ -1,1 +1,1 @@
-# Online-Exam-System - java application
+# Online-Exam-System 
