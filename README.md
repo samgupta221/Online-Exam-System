@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 Online Exam System – Java (Spring Boot)
 
 <p align="center">
@@ -16,76 +15,6 @@ The platform provides a secure and user-friendly environment for **Admins** and 
 
 ---
 
-# 💖 Support & Contact
-
-This project is created by **LazyCoder**.
-
-### 📺 Subscribe to My YouTube Channel
-I post tutorials, Java/Python projects, and Spring Boot content regularly.
-
-👉 **Subscribe Here:**  
-https://www.youtube.com/c/LazyCoderOnline?sub_confirmation=1
-
----
-
-### 🤝 Need Help or Want a Custom Project?
-
-📌 Facing issues with this project?  
-📌 Want a custom Java/Spring Boot/Django project?
-
-**I am available for freelance development.**
-
-📱 **WhatsApp:** https://wa.me/919572181024
-
-<p align="center">
-<a href="https://www.youtube.com/c/LazyCoderOnline?sub_confirmation=1">
-<img src="https://img.shields.io/badge/Subscribe-LazyCoder-red?style=for-the-badge&logo=youtube" >
-</a>
-
-<a href="https://wa.me/919572181024">
-<img src="https://img.shields.io/badge/WhatsApp-Chat%20Now-green?style=for-the-badge&logo=whatsapp" >
-</a>
-</p>
-
----
-
-# 📸 Screenshots
-
-
-<table width="100%">
-
-
-<tr>
-<td align="center"><b>Exam Page (with Pagination)</b></td>
-</tr>
-<tr>
-<td align="center"><img src="https://github.com/sumitkumar1503/online-exam-system/blob/master/screenshots/exampage.png" width="90%"></td>
-</tr>
-
-<tr>
-<td align="center"><b>Admin Dashboard</b></td>
-</tr>
-<tr>
-<td align="center"><img src="https://github.com/sumitkumar1503/online-exam-system/blob/master/screenshots/admindashboard.png?raw=true" width="90%"></td>
-</tr>
-
-<tr>
-<td align="center"><b>Manage Exam</b></td>
-</tr>
-<tr>
-<td align="center"><img src="https://github.com/sumitkumar1503/online-exam-system/blob/master/screenshots/adminmanageexam.png" width="90%"></td>
-</tr>
-
-<tr>
-<td align="center"><b>Manage Question</b></td>
-</tr>
-<tr>
-<td align="center"><img src="https://github.com/sumitkumar1503/online-exam-system/blob/master/screenshots/adminmanagequestion.png" width="90%"></td>
-</tr>
-</table>
-
----
-
 # ✨ Features
 
 ## 👨‍💻 Admin Features
@@ -127,50 +56,6 @@ https://www.youtube.com/c/LazyCoderOnline?sub_confirmation=1
 | ORM | Hibernate / JPA                            |
 | Build | Maven                                      |
 | Storage | Local File System for images               |
-
----
-
-# 🚀 How to Run the Project
-
-### ✔️ Prerequisites
-- Java **17+**
-- Maven
-- Any IDE (IntelliJ, VS Code, Eclipse)
-
----
-
-### ✔️ Clone the Repository
-
-```bash
-git clone https://github.com/sumitkumar1503/online-exam-system.git
-cd online-exam-system
-```
-
----
-
-### ✔️ Start the Application
-
-Open the project → Run:
-
-`OnlineExamApplication.java`
-
-Server will start at:
-
-👉 http://localhost:7890
-
----
-
-# 🗄️ Database (H2)
-
-Access H2 Console:
-
-👉 http://localhost:7890/h2-console
-
-```
-JDBC URL : jdbc:h2:file:./data/examdb  
-Username : sa  
-Password : password
-```
 
 ---
 
@@ -182,23 +67,6 @@ Password : password
 
 ---
 
-# 📜 License
-
-This project is **open-source** under the **MIT License**.
-
----
-
-<p align="center">
-<strong>Happy Coding ❤️</strong>
-</p>
-=======
-# 🚀 Online Exam System – Java (Spring Boot)
-
-A comprehensive **Online Examination System** built using **Spring Boot, Spring Security, Thymeleaf, Bootstrap 5**, and **JPA/Hibernate**.  
-The platform provides a secure and user-friendly environment for **Admins** and **Students** to manage and take online tests effectively.
-
----
-
 # ✨ Features
 
 ## 👨‍💻 Admin Features
@@ -242,4 +110,4 @@ The platform provides a secure and user-friendly environment for **Admins** and 
 | Storage | Local File System for images               |
 
 ---
->>>>>>> 56eb1d69ef6a0f4893871e4bbaf85d8c4acd6286
+
