@@ -1,17 +1,7 @@
 # 🚀 Online Exam System – Java (Spring Boot)
 
-<p align="center">
-<img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java&logoColor=white" alt="Java 17">
-<img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot 3.x">
-<img src="https://img.shields.io/badge/JPA%20%2F%20Hibernate-red?style=for-the-badge" alt="JPA / Hibernate">
-<img src="https://img.shields.io/badge/H2%20Database-lightgrey?style=for-the-badge" alt="H2 Database">
-</p>
-
 A comprehensive **Online Examination System** built using **Spring Boot, Spring Security, Thymeleaf, Bootstrap 5**, and **JPA/Hibernate**.  
 The platform provides a secure and user-friendly environment for **Admins** and **Students** to manage and take online tests effectively.
-
-✔️ Completely Free  
-✔️ Full Source Code Included
 
 ---
 
