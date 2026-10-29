@@ -1,99 +1,55 @@
 # 🚀 Online Exam System – Java (Spring Boot)
 
-A comprehensive **Online Examination System** built using **Spring Boot, Spring Security, Thymeleaf, Bootstrap 5**, and **JPA/Hibernate**.  
-The platform provides a secure and user-friendly environment for **Admins** and **Students** to manage and take online tests effectively.
+A web-based examination management application developed using Java and Spring Boot. The project provides a web interface for managing online examinations, with server-side rendering, authentication, and database integration.
 
-## 👨‍💻 Admin Features
-- Secure Admin Login
-- Stats Dashboard (Total Students, Exams, Questions, Submissions)
-- **Exam CRUD** (title, duration, description)
-- **Question CRUD** per exam
-- Cascade deletes for exams → questions → results
-- Protect answered questions from accidental delete
-- Manage Students
-- Reset Student Password
-- Delete Student Account (cascade all related data)
-- View all submissions for any exam
+## Overview
 
----
+The Online Exam System aims to simplify the process of conducting examinations online. It uses Spring Boot for backend development, Spring Security for authentication and access control, Thymeleaf for dynamic web pages, and JPA/Hibernate for database operations.
 
-## 🧑‍🎓 Student Features
-- Student Registration (Full Name, Email, Mobile, Profile Picture)
-- Secure Login
-- Dashboard with KPIs + Performance Chart
-- Take Exam (paginated interface + question palette)
-- Live Timer (auto submit)
-- Instant Results (score, percentage, pass/fail)
-- Detailed Review Page (correct vs incorrect answers)
-- Profile Update
-- Upload New Profile Picture
-- Change Password
-- View All Previous Exam Results
+## Features
 
----
+- **Authentication and Security:** User authentication using Spring Security.
+- **Examination Management:** Supports examination-related operations implemented in the application.
+- **Dynamic Web Pages:** Server-rendered views using Thymeleaf.
+- **Database Integration:** Data persistence using JPA/Hibernate.
+- **Responsive Interface:** Bootstrap 5-based user interface.
+- **Maven Build:** Dependency management and application execution using Maven.
 
-# 🛠️ Tech Stack
+## Technology Stack
 
-| Layer | Technology                                 |
-|------|--------------------------------------------|
-| Backend | Spring Boot 3, Spring Security 6           |
-| Frontend | Thymeleaf, Html, Bootstrap 5, Chart.js     |
-| Database | H2 (file-based) (configurable to other DB) |
-| ORM | Hibernate / JPA                            |
-| Build | Maven                                      |
-| Storage | Local File System for images               |
+| Technology | Purpose |
+|---|---|
+| Java | Core programming language |
+| Spring Boot | Backend application framework |
+| Spring Security | Authentication and authorization |
+| Spring Data JPA | Database access |
+| Hibernate | ORM and entity management |
+| Thymeleaf | Server-side HTML rendering |
+| HTML5 and CSS3 | Web page structure and styling |
+| Bootstrap 5 | Responsive UI components |
+| Maven | Dependency and build management |
+| SQL Database | Data storage, according to project configuration |
 
----
+## Project Structure
 
-# 🔐 Default Admin User
-
-| Username | Password |
-|---------|----------|
-| admin | adminpass |
+```text
+Online-Exam-System/
+├── online-exam-system/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   │   └── test/
+│   ├── .mvn/
+│   ├── mvnw
+│   ├── mvnw.cmd
+│   └── pom.xml
+├── README.md
+└── .gitignore
+```
 
 ---
 
-# ✨ Features
+If you find this project useful, consider giving the repository a star.
 
-## 👨‍💻 Admin Features
-- Secure Admin Login
-- Stats Dashboard (Total Students, Exams, Questions, Submissions)
-- **Exam CRUD** (title, duration, description)
-- **Question CRUD** per exam
-- Cascade deletes for exams → questions → results
-- Protect answered questions from accidental delete
-- Manage Students
-- Reset Student Password
-- Delete Student Account (cascade all related data)
-- View all submissions for any exam
-
----
-
-## 🧑‍🎓 Student Features
-- Student Registration (Full Name, Email, Mobile, Profile Picture)
-- Secure Login
-- Dashboard with KPIs + Performance Chart
-- Take Exam (paginated interface + question palette)
-- Live Timer (auto submit)
-- Instant Results (score, percentage, pass/fail)
-- Detailed Review Page (correct vs incorrect answers)
-- Profile Update
-- Upload New Profile Picture
-- Change Password
-- View All Previous Exam Results
-
----
-
-# 🛠️ Tech Stack
-
-| Layer | Technology                                 |
-|------|--------------------------------------------|
-| Backend | Spring Boot 3, Spring Security 6           |
-| Frontend | Thymeleaf, Html, Bootstrap 5, Chart.js     |
-| Database | H2 (file-based) (configurable to other DB) |
-| ORM | Hibernate / JPA                            |
-| Build | Maven                                      |
-| Storage | Local File System for images               |
-
----
 
